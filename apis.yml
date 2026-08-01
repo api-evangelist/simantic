@@ -1,22 +1,87 @@
 aid: simantic
 name: Simantic
-description: Simantic is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Simantic builds simulated hardware for embedded QA, modernizing embedded
+  firmware development through hardware simulation designed for AI adoption in
+  hardware engineering. Its platform emulates microcontroller (MCU) systems so
+  engineers can inject sensor readings and observe how their firmware reacts over
+  CAN, Ethernet, and BLE, running full firmware test suites in CI (for example
+  GitHub Actions) on every push and pull request without physical boards. A Model
+  Context Protocol (MCP) server lets AI agents step through firmware, inspect
+  peripheral state, and replay scenarios against a simulated MCU, and a CLI drives
+  simulations locally. Simantic offers private, self-hosted deployment so firmware
+  and test data never leave a team's own servers. Founded in 2025, Simantic is a
+  Y Combinator (Fall 2026) company.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://simantic.dev/simantic_logo_4_inverted.png
 url: https://raw.githubusercontent.com/api-evangelist/simantic/refs/heads/main/apis.yml
+humanURL: https://simantic.dev
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- velocity-fund
+- barn-vc
+- leap-year
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Firmware
+- Embedded Systems
+- Hardware Simulation
+- Developer Tools
+- Testing
+- Quality Assurance
+- Microcontroller
+- AI Agents
+- Model Context Protocol
+- Semiconductors
+- Continuous Integration
 apis: []
+common:
+- type: DomainSecurity
+  url: security/simantic-domain-security.yml
+- type: Website
+  url: https://simantic.dev
+- type: Documentation
+  url: https://simantic.dev/docs
+- type: Pricing
+  url: https://simantic.dev/pricing
+- type: Blog
+  url: https://simantic.dev/blog
+- type: SignUp
+  url: https://simantic.dev/signup
+- type: Login
+  url: https://simantic.dev/login
+- type: TermsOfService
+  url: https://simantic.dev/terms
+- type: PrivacyPolicy
+  url: https://simantic.dev/privacy
+- type: Support
+  url: https://simantic.dev/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/simantic
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
