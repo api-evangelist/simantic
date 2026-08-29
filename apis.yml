@@ -12,6 +12,17 @@ description: >-
   simulations locally. Simantic offers private, self-hosted deployment so firmware
   and test data never leave a team's own servers. Founded in 2025, Simantic is a
   Y Combinator (Fall 2026) company.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
